@@ -1,0 +1,29 @@
+body{
+    background-color: blue;
+}
+
+/* Navbar styling */ 
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background:#000;
+    border-bottom:2px solid #00eaff;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#00eaff;
+}
+
+.nav-links a{
+    margin-left:20px;
+    color:#00eaff;
+    text-decoration:none;
+}
+
+.nav-links a:hover{
+    color:white;
+}
