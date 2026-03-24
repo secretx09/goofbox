@@ -1,11 +1,12 @@
 body{
+    margin: 0;
     background-color: white;
 }
 
 /* Navbar styling */ 
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px 40px;
     background: #1C96E8;
@@ -13,6 +14,16 @@ body{
 
 .logo{
     border-image-width: 2%;
+}
+
+.logo img{
+    display: block;
+}
+
+.nav-links{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 .nav-links a{
